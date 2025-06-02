@@ -725,7 +725,7 @@ class _VisionAIScreenState extends State<VisionAIScreen>
           'Authorization': 'Bearer $_openaiApiKey',
         },
         body: jsonEncode({
-          'model': 'tts-1',
+          'model': 'gpt-4o-mini-tts',
           'input': text,
           'voice': 'nova',
           'response_format': 'mp3',
