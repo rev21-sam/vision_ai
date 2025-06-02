@@ -1,0 +1,26 @@
+name: vision_ai_flutter
+description: A Flutter app for real-time AI vision analysis using camera feed.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+2
+  http: ^1.1.0
+  permission_handler: ^11.3.1
+  cupertino_icons: ^1.0.2
+  audioplayers: ^6.0.0
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true 
